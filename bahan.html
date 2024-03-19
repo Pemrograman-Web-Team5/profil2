@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Registrasi</title>
+</head>
+<body>
+    <!--poin A = formulir registrasi-->
+    <h2>Formulir Registrasi</h2>
+    <form action="#" method="POST">
+
+        <!--poin B = nama-->
+        <label for="name">Nama:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <!--poin C = email-->
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+
+        <!--poin D = password-->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <!--poin E = tanggal lahir-->
+        <label for="dob">Tanggal Lahir:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <!--poin F = jenis kelamin-->
+        <label for="gender">Jenis Kelamin:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Laki-laki</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Perempuan</label><br><br>
+
+        <!--poin G = hobi-->
+        <label for="hobby">Hobi:</label><br>
+        <input type="checkbox" id="hobby1" name="hobby1" value="reading">
+        <label for="hobby1">Membaca</label><br>
+        <input type="checkbox" id="hobby2" name="hobby2" value="music">
+        <label for="hobby2">Musik</label><br><br>
+
+        <!--poin H = kota-->
+        <label for="city">Kota:</label><br>
+        <select id="city" name="city">
+            <option value="Jakarta">Jakarta</option>
+            <option value="Bandung">Bandung</option>
+            <option value="Surabaya">Surabaya</option>
+            <option value="Yogyakarta">Yogyakarta</option>
+        </select><br><br>
+
+        <!--poin I = button submit-->
+        <input type="submit" value="Submit">
+
+        <!--poin J = button reset-->
+        <input type="reset" value="Reset">
+
+        <!--poin K = button ok-->
+        <input type="button" value="Ok">
+    </form>
+</body>
+</html>
